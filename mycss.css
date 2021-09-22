@@ -1,0 +1,66 @@
+.project-button{
+    display: inline-block!important;
+    font-weight: 400!important;
+    line-height: 1.5!important;
+    color: black!important;
+    text-align: center!important;
+    text-decoration: none!important;
+    vertical-align: middle!important;
+    cursor: pointer!important;
+    -webkit-user-select: none!important;
+    -moz-user-select: none!important;
+    user-select: none!important;
+    background-color: transparent!important;
+    border: 1px solid skyblue!important;
+    padding: .375rem .75rem!important;
+    font-size: 1rem!important;
+    border-radius: .25rem!important;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out!important;
+
+}
+.project-button-yellow{
+    display: inline-block!important;
+    font-weight: 400!important;
+    line-height: 1.5!important;
+    color: black!important;
+    text-align: center!important;
+    text-decoration: none!important;
+    vertical-align: middle!important;
+    cursor: pointer!important;
+    -webkit-user-select: none!important;
+    -moz-user-select: none!important;
+    user-select: none!important;
+    background-color: transparent!important;
+    border: 1px solid red!important;
+    padding: .375rem .75rem!important;
+    font-size: 1rem!important;
+    border-radius: .25rem!important;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out!important;
+
+}
+.color-darkwhite{
+    color: rgb(134, 134, 134)!important;
+}
+.line-hight{
+    line-height: 2rem;
+}
+.color-black{
+    color: black!important;
+}
+.divider{
+    border-bottom: 3px solid red!important;
+}
+.project-button:hover{
+    background-color: black!important;
+    color: skyblue!important;
+
+}
+.project-button-yellow:hover{
+    background-color: black!important;
+    color: skyblue!important;
+    border: hidden!important;
+
+}
+.color-red{
+    color: red;
+}
