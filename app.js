@@ -26,7 +26,7 @@ if (process.env.NODE_ENV === 'production') {
 	app.use(express.static('client/build'));
 }
 // ENDPOINTS
-app.get('/index.html', function(req, res) {
+app.get('/', function(req, res) {
     res.sendFile( __dirname + "/index.html" ); 
 });
 app.get('/about/index.html', function(req, res) {
