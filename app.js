@@ -22,6 +22,7 @@ app.set('index', path.join(__dirname, './index.html')) // Set the views director
 app.set('about', path.join(__dirname, '/about./index.html')) // Set the views directory
 app.set('projects', path.join(__dirname, '/projects./index.html')) // Set the views directory
 app.set('contact', path.join(__dirname, '/contact./index.html')) // Set the views directory
+app.set('resume', path.join(__dirname, '/Resume2.pdf')) // Set the views directory
 if (process.env.NODE_ENV === 'production') {
 	app.use(express.static('client/build'));
 }
@@ -37,6 +38,9 @@ app.get('/projects/index.html', function(req, res) {
 });
 app.get('/contact/index.html', function(req, res) {
     res.sendFile( __dirname + "/contact/index.html" ); 
+});
+app.get('/Resume2.pdf', function(req, res) {
+    res.sendFile( __dirname + "/Resume2.pdf" ); 
 });
 
 // app post
